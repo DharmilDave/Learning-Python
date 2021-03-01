@@ -21,8 +21,9 @@ print(result)
 numbers1 = [1, 2, 3]
 numbers2 = [4, 5, 6]
 
-result = map(lambda x, y: x + y, numbers1, numbers2)
-print(list(result))
+result = list(map(lambda x, y: x + y, numbers1, numbers2))
+print(result)  # ! it will print list
+print(*result)  # ! it will unpack the list and will print each elements bcz of "*"
 
 # * Lambda function usage
 

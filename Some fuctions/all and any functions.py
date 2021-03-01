@@ -19,3 +19,11 @@ if all(l):
 
 if any(l):
     print("Any statement")
+
+# ! some other examples
+
+x = ["1", "2", "hello", True]
+y = ["", 0, 0.0]
+print(any(x))  # ? will print True if any value in the list is true or has any values
+print(all(x))  # ? will print True if all of the value in the list are valid or say true
+print(any(y))
