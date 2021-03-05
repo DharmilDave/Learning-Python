@@ -31,5 +31,5 @@ def dis2(s):
     print(s)
 
 
-dis2("hello")
 disp()
+dis2("hello")

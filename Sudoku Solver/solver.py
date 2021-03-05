@@ -87,7 +87,7 @@ def find_empty(bo):
     return None
 
 
-print_board(easy_board)
-solve(easy_board)
+print_board(hard_board)
+solve(hard_board)
 print("Solved")
-print_board(easy_board)
+print_board(hard_board)
