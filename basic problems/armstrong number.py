@@ -1,6 +1,6 @@
 num = int(input("Enter a number: "))
 
-# initialize sum
+# initialize sum variable
 sum = 0
 
 # find the sum of the cube of each digit
