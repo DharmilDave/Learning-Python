@@ -11,7 +11,7 @@ def bubble_sort(arr):
         if swapped == False:
             break
     print(f"Total {c} swaps required to sort the array.")
-    print("Sorted array: {arr}")
+    print(f"Sorted array: {arr}")
 
 
 arr = [5, 3, 18, 14, 6, 2]
